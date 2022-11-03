@@ -266,16 +266,22 @@ body {
 .team-list .item {
   flex-basis: calc((100% - 90px) / 4);
   margin-right: 30px;
+  width: 270px;
+  background: var(--primary-bg-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .img-team {
   display: block;
+  margin-bottom: 30px;
 }
 
-.team-text {
+/* .team-text {
   padding: 30px 0;
   background-color: var(--primary-bg-color);
-}
+} */
 
 .section-team {
   background-color: var(--bg-team-color);
@@ -293,14 +299,15 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 16px;
 }
 
-.team {
+/* .team {
   overflow: hidden;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
+} */
 
 /* portfolio-list */
 
