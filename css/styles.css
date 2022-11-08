@@ -242,12 +242,14 @@ body {
 }
 
 .feature-icons {
+  display: flex;
   text-align: center;
   align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  /* padding-top: 25px;
+  padding-bottom: 25px; */
   margin-bottom: 30px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -425,10 +427,10 @@ body {
 }
 
 .clients-list .clients-icon {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  margin: 16px 32px;
+  margin: 16px 32px; */
   fill: var(--icons-color);
 }
 
